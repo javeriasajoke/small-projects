@@ -1,0 +1,51 @@
+.shootingGame{
+    height: 30rem;
+    width: 40rem;
+    background-color: palegreen;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.centerBtn{
+    text-align: center;
+}
+.enemy{
+    height: 12rem;
+    width: 7rem;
+    background-color: purple;
+    position: absolute;
+    bottom: -12rem;
+    transition: all .2s;
+}
+#enemy2{
+    left: 40%;
+}
+#enemy3{
+    left: 80%;
+}
+
+.enemyShows{
+    bottom: 0;
+}
+
+
+.deadd{
+    background-color: greenyellow;
+    height: .3rem;
+    transition: all .4;
+}
+
+.shooting{
+    background-color: red;
+}
+
+#healthBar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	background-color: coral;
+	transition: width .5s;
+}

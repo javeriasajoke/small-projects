@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shooting game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="shootingGame">
+        <div id="healthBar"></div>
+        <div onclick="iAttack(this)" class="enemy" id="enemy1"></div>
+        <div onclick="iAttack(this)" class="enemy" id="enemy2"></div>
+        <div onclick="iAttack(this)" class="enemy" id="enemy3"></div>
+    </div>
+    <div class="centerBtn">
+        <button onclick="randomEnemyAttacks()"> Start Playing </button>
+    </div>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
