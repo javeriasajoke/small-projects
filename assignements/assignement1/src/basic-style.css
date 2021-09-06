@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root{
+    --clr-black: rgba(0, 0, 0, 0.829);
+    --darker-grey: #8A8A8A;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.step-progress{
+padding-top: 1%;
+height: 4%;
+min-width: 40%;
+position: absolute;
+right: 10%;
+}
+.step-progress-heading{
+ display: inline-block;
+ padding: 0%;
+ margin: 0%;
+ font-weight: 900;
+ position: absolute;
+ left: 5%;
+}
+.step-progress-dot{
+  display: inline-block;
+  color: var(--darker-grey);
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+.step-progress-dot:hover{
+    color: var(--clr-black);
+}
+.dot1{
+    left: 21%;
+    color: var(--clr-black);
+}
+.dot2{
+    left: 23%;
+}
+.dot3{
+  left: 25%;
+}
+
+@media (max-width: 1122px) {
+    .step-progress-heading{
+        right: 40%;
+    }
+}
+
+@media (max-width: 1068px) {
+    .step-progress-heading{
+        right: 80%;
+    }
+}

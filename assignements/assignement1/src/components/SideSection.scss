@@ -1,0 +1,31 @@
+$clr-white: rgb(253, 253, 253);
+$clr-blue: rgb(59, 124, 245);
+
+
+
+.side-section{
+    background-color: $clr-blue;
+    height: 125vh;
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-text{
+       color: $clr-white;
+       width: 60%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+
+
+       &-paragraph{
+           width: 75%;
+           font-weight: 400;
+           font-size: 80%;
+           letter-spacing: .5px;
+           line-height: 150%;
+       }
+    }
+}

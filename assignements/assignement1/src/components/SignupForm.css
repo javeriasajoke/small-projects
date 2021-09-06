@@ -1,0 +1,192 @@
+a {
+  color: #3b7cf5;
+  text-decoration: none;
+  font-weight: bold;
+  padding: .5%;
+}
+
+.container {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 5rem 8rem;
+}
+
+.signup-form {
+  min-width: 45%;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signup-form-heading {
+  font-size: 140%;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.829);
+}
+
+.signup-form-paragraph {
+  font-size: 80%;
+  font-weight: 500;
+  padding: 3% 0;
+  color: rgba(0, 0, 0, 0.829);
+}
+
+.form {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.form-section {
+  width: 90%;
+  height: 12%;
+  position: relative;
+}
+
+.form-section .form-input {
+  position: absolute;
+  left: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #EEEEEE;
+  border-radius: .2rem;
+  font-family: inherit;
+  color: rgba(0, 0, 0, 0.829);
+  padding-left: .5rem;
+}
+
+.form-section .form-label {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: text;
+}
+
+.form-section .form-label, .form-section .description-form-label {
+  position: absolute;
+  left: 1rem;
+  top: .5rem;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+
+.form-section svg {
+  height: 55%;
+  width: 55%;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  z-index: 100;
+}
+
+.form .select {
+  width: 104%;
+  height: 108%;
+}
+
+.form .form-password {
+  display: block;
+  margin-top: 9%;
+  font-size: 62%;
+  color: #8A8A8A;
+  position: absolute;
+  top: 50%;
+}
+
+.form-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 92%;
+  height: 15%;
+  margin: 7% 0;
+}
+
+.form-btn-btn {
+  color: #fdfdfd;
+  font-size: 70%;
+  width: 200%;
+  height: 100%;
+  border: none;
+  background-color: #3b7cf5;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.form-btn-btn:disabled {
+  background-color: #EEEEEE;
+  color: #ACACAC;
+  width: 100%;
+  height: 100%;
+}
+
+.form-btn-btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.form-terms-conditions {
+  display: block;
+  font-size: 65%;
+  font-weight: 500;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.829);
+  line-height: 185%;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.form-input:focus ~ .form-label, .form-input:not(:placeholder-shown).form-input:not(:focus) ~ .form-label {
+  top: -.5rem;
+  background-color: white;
+}
+
+.form-input:focus:invalid {
+  border: 1px solid red;
+}
+
+.form-input:focus:invalid ~ span {
+  display: block;
+}
+
+.form-input:focus:invalid ~ .form-label {
+  color: red;
+}
+
+span {
+  color: red;
+  position: absolute;
+  top: 2.5rem;
+  font-size: 10px;
+  display: none;
+}
+/*# sourceMappingURL=SignupForm.css.map */
